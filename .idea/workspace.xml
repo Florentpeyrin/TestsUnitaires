@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f7d6ee0-ea81-46b5-895d-0c765621b283" name="Default Changelist" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lp_aw_tests_2021-master.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lp_aw_tests_2021-master.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Vues/AnonymeSiteTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Adherent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/AdherentRepository.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +162,8 @@
       <updated>1614938847816</updated>
       <workItem from="1614938848897" duration="1653000" />
       <workItem from="1614940902446" duration="453000" />
-      <workItem from="1615810157483" duration="3726000" />
+      <workItem from="1616068870877" duration="2000" />
+      <workItem from="1616141500355" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1614941069444</created>
@@ -175,14 +172,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614941069444</updated>
     </task>
-    <task id="LOCAL-00002" summary="Init">
-      <created>1615810175360</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1615810175360</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,23 +188,32 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615815599474">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1616142648912">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="418" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1615815599474" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1616142648912" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1614940882664">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614940882664" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1615810689003">
+    <state x="147" y="65" key="MergeDialog" timestamp="1615817782608">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615810689003" />
+    <state x="147" y="65" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1615817782608" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1614941228921">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614941228921" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615817758938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1615817758938" />
   </component>
 </project>
