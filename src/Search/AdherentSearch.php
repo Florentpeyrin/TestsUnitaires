@@ -10,7 +10,7 @@ class AdherentSearch
         $nom = $adherent->getNom();
         $prenom = $adherent->getPrenom();
         $date = $adherent->getDateNaissance();
-        $ident = $date->format("dmY") . strtoupper($nom) . '_' . strtoupper($prenom);
+        $ident = $date->format("dmY") . strtoupper(str_replace("-", "", $nom)) . '_' . strtoupper(str_replace("-", "", $prenom));
         return $ident;
     }
 }
