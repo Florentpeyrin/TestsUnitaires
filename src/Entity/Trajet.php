@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\TrajetRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -44,6 +46,16 @@ class Trajet
      * @ORM\Column(type="integer")
      */
     private $nb_places;
+
+    /**
+     * @ORM\ManyToMany(targetEntity=Utilisateur::class, inversedBy="trajets")
+     */
+    private $passagers;
+
+    public function __construct()
+    {
+        $this->passagers = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -106,6 +118,30 @@ class Trajet
     public function setNbPlaces(int $nb_places): self
     {
         $this->nb_places = $nb_places;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Utilisateur[]
+     */
+    public function getPassagers(): Collection
+    {
+        return $this->passagers;
+    }
+
+    public function addPassager(Utilisateur $passager): self
+    {
+        if (!$this->passagers->contains($passager)) {
+            $this->passagers[] = $passager;
+        }
+
+        return $this;
+    }
+
+    public function removePassager(Utilisateur $passager): self
+    {
+        $this->passagers->removeElement($passager);
 
         return $this;
     }
