@@ -37,8 +37,7 @@ class LieuTest extends TestCase
     }
 
     /**
-     * @dataProvider lieuProvider
-     * @dataProvider adherentProvider
+     * @dataProvider lieuProvider, adherentProvider
      */
     public function testNewTrajetLieu($lat, $lon, $nomLieu, $nomAdh, $prenomAdh, $dateAdh): void
     {
