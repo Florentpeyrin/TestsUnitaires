@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7d6ee0-ea81-46b5-895d-0c765621b283" name="Default Changelist" comment="Ajout Entities" />
+    <list default="true" id="8f7d6ee0-ea81-46b5-895d-0c765621b283" name="Default Changelist" comment="Ajout Entities">
+      <change afterPath="$PROJECT_DIR$/tests/URL/URLTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +82,6 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/link" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
       <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
@@ -115,7 +119,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
       <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
       <path value="$PROJECT_DIR$/vendor/symfony/intl" />
       <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
@@ -163,6 +166,8 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
     </include_path>
   </component>
   <component name="ProjectId" id="1pKjo9wCsrrwmpkOJzNeUKFojZ7" />
@@ -204,6 +209,7 @@
       <workItem from="1616147786902" duration="3182000" />
       <workItem from="1617016628653" duration="8508000" />
       <workItem from="1617347542498" duration="1382000" />
+      <workItem from="1617349244406" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1614941069444</created>
@@ -291,6 +297,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614940882664" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1617351235209">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1617351235209" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1617348293671">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
