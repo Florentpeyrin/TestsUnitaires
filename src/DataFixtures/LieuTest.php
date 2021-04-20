@@ -17,12 +17,6 @@ class LieuTest extends Fixture
         $lieu->setNom("Grenoble");
         $manager->persist($lieu);
 
-        $adherent = new Adherent();
-        $adherent->setNom("Viallon");
-        $adherent->setPrenom("Gabriel");
-        $adherent->setDateNaissance(new \DateTime('14/02/2001'));
-        $manager->persist($adherent);
-
         $manager->flush();
     }
 }

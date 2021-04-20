@@ -3,6 +3,7 @@
 namespace App\Tests\Entity;
 
 use App\Entity\Adherent;
+use App\Repository\LieuRepository;
 use PHPUnit\Framework\TestCase;
 use App\Entity\Lieu;
     
@@ -12,18 +13,6 @@ class LieuTest extends TestCase
     {
         return [
             ["45.1896699", "5.7244652", "Grenoble"],
-        ];
-    }
-    public function adherentProvider()
-    {
-        return [
-            ["Viallon", "Gabriel", "14/02/2001"],
-        ];
-    }
-    public function trajetProvider()
-    {
-        return [
-            ["Grenoble", "Lyon", "19/03/2021 17:00", "19/03/2021 19:00"],
         ];
     }
 
@@ -36,15 +25,11 @@ class LieuTest extends TestCase
         $this->assertInstanceOf(Lieu::class, $lieu);
     }
 
-    /**
-     * @dataProvider lieuProvider, adherentProvider
-     */
-    public function testNewTrajetLieu($lat, $lon, $nomLieu, $nomAdh, $prenomAdh, $dateAdh): void
+    public function testNewTrajetLieu(): void
     {
-        $lieu = new Lieu();
-        $lieu->setLat($lat);
-        $lieu->setLon($lon);
-        $lieu->setNom($nomLieu);
+        $lieuRep = new LieuRepository();
+        $lieu = $lieuRep->findById(1);
+        $this->assertInstanceOf(Lieu::class, $lieu);
         $adherent = new Adherent();
         $adherent->setNom($nomAdh);
         $adherent->setPrenom($prenomAdh);
